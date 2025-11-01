@@ -87,6 +87,7 @@ p + ggtitle("n = 4") +
 print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 ```
+A way to see that this graph is uneven is that 0.015 and 0.020 shows the difference. The sd is 20.3135946613485 and the mean is 49.49125
 
 ### In this case the stdev was cut in half because the sample size was four. This is what the central limit theorem says. There are also 5 peaks. They go from FFFF,to FFFM, to FFMM to FMMM and finally MMMM.
 
